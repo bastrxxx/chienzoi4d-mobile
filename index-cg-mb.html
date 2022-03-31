@@ -31,6 +31,24 @@
 			  </div><!-- /.modal-content -->
 			</div><!-- /.modal-dialog -->
 		  </div><!-- /.modal -->
+		   <!----Popup Chưa có Link button sticky-->
+		<div class="modal fade modal-dk" id="chuacolink" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+				<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+				</button>
+				<div class="content-dksom">
+					<h4 class="pt-5 mt-5">Đang cập nhật, Xin quay lại sau.</h4>
+					<a class="btn btn-dangky"  data-bs-dismiss="modal" aria-label="Close">
+					<span class="textsub">Quay lại</span>
+					<img src="images/btn-submit.png" alt="">
+					</a>
+				</div>   
+				</div>
+			</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
 		<div id="layout">
 			<div class="download fixed-top px-3 py-2">
 				<div class="container p-0">
@@ -41,7 +59,7 @@
 						</div>
 					</div>
 					<div class="right">
-						<a href="#" class="d-block"><img class="android" src="images/taigg.png" alt=""/></a>
+						<a href="#" class="d-block" data-bs-toggle="modal" data-bs-target="#chuacolink"><img class="android" src="images/taigg.png" alt=""/></a>
 						<!-- <a href="#" class="d-block"><img class="ios" src="images/taiios.png" alt=""/></a>
 						<a href="#" class="d-block"><img class="apk" src="images/taiapk.png" alt=""/></a> -->
 					</div>
